@@ -1,15 +1,16 @@
 import Navbar from "./components/Navbar";
-import { BrowserRouter, Routes, Route} from "react-router-dom";
+import HeroSection from "./components/HeroSection";
 
 function App() {
   return (
     <div className="App">
-     <BrowserRouter>
-       <Navbar/>
-       {/* <Route path="/" element={<Login/>}/>
-       <Route path="/login" element={<Login/>}/>
-        */}
-    </BrowserRouter>
+      <Navbar/>
+      <div className="container main">
+       <HeroSection />
+        
+
+      </div>
+   
     </div>
   );
 }
