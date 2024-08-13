@@ -1,11 +1,11 @@
 export default function ImproveSkills(){
     const list = [
-        "List",
-        "List",
-        "List",
-        "List",
-        "List",
-        "List"
+        "Learn new recepies",
+        "Experiment with food",
+        "Write your own recepies",
+        "Get cooking tips",
+        "Get ranked"
+        
     ]
 
 
